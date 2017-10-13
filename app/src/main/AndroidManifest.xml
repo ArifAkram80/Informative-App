@@ -18,16 +18,36 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.aVideoTutorial" />
-        <activity android:name=".activity.aInterView" />
-        <activity android:name=".activity.aQZ" />
-        <activity android:name=".activity.aTech" />
-        <activity android:name=".activity.aQuesAns" />
-        <activity android:name=".activity.aStudyM" />
-        <activity android:name=".activity.aTrainCourse" />
-        <activity android:name=".activity.aOurService" />
-        <activity android:name=".activity.aContactUs" />
-        <activity android:name=".activity.aOurTeam"></activity>
+        <activity
+            android:name=".activity.aVideoTutorial"
+            android:label="Video Tutorials" />
+        <activity
+            android:name=".activity.aInterView"
+            android:label="Interview Questions" />
+        <activity
+            android:name=".activity.aQZ"
+            android:label="Quiz Tests" />
+        <activity
+            android:name=".activity.aTech"
+            android:label="Technical Terms" />
+        <activity
+            android:name=".activity.aQuesAns"
+            android:label="Question and Answer" />
+        <activity
+            android:name=".activity.aStudyM"
+            android:label="Study Material" />
+        <activity
+            android:name=".activity.aTrainCourse"
+            android:label="Training Courses" />
+        <activity
+            android:name=".activity.aOurService"
+            android:label="Our Services" />
+        <activity
+            android:name=".activity.aContactUs"
+            android:label="Contact Us" />
+        <activity
+            android:name=".activity.aOurTeam"
+            android:label="Our Teams"></activity>
     </application>
 
 </manifest>

@@ -24,6 +24,10 @@
         android:layout_height="wrap_content"
         style="@android:style/Widget.Material.ProgressBar.Large"
         android:layout_centerVertical="true"
+        android:indeterminateTint="#ffffff"
+        android:progress="100"
+        android:minWidth="250dp"
+        android:minHeight="25dp"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

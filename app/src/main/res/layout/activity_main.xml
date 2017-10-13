@@ -5,17 +5,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back"
+    android:background="#e2e2e2"
     android:orientation="vertical"
     tools:context="com.example.arif.digitalmarketing.activity.MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="130dp"
@@ -23,23 +25,21 @@
 
                 <ImageButton
                     android:id="@+id/xVideoBtn"
-                    android:src="@drawable/video_img"
                     android:layout_width="0dp"
-                    android:layout_weight="5"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
-                    android:background="#fff"
-                    />
+                    android:layout_weight="5"
+                    android:background="#e2e2e2"
+                    android:src="@drawable/mvt" />
+
                 <ImageButton
                     android:id="@+id/xInterViewBtn"
                     android:layout_width="0dp"
-                    android:layout_weight="5"
                     android:layout_height="match_parent"
-
                     android:layout_margin="10dp"
-                    android:src="@drawable/interview"
-                    android:background="#a165c6"
-                    />
+                    android:layout_weight="5"
+                    android:background="#e2e2e2"
+                    android:src="@drawable/miq" />
 
             </LinearLayout>
 
@@ -51,19 +51,22 @@
                 <ImageButton
                     android:id="@+id/xQZBtn"
                     android:layout_width="0dp"
-                    android:layout_weight="5"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
-                    android:background="@color/colorAccent"
+                    android:layout_weight="5"
+                    android:src="@drawable/mqt"
+                    android:background="#e2e2e2"
+
                     />
+
                 <ImageButton
                     android:id="@+id/xTechBtn"
                     android:layout_width="0dp"
-                    android:layout_weight="5"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
-                    android:background="@color/colorPrimaryDark"
-                    />
+                    android:layout_weight="5"
+                    android:background="#e2e2e2"
+                    android:src="@drawable/mtt"/>
 
             </LinearLayout>
 
@@ -75,19 +78,20 @@
                 <ImageButton
                     android:id="@+id/xQuesAnsBtn"
                     android:layout_width="0dp"
-                    android:layout_weight="5"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
-                    android:background="@color/colorAccent"
-                    />
+                    android:layout_weight="5"
+                    android:background="#e2e2e2"
+                    android:src="@drawable/mqa"/>
+
                 <ImageButton
                     android:id="@+id/xStudyMBtn"
                     android:layout_width="0dp"
-                    android:layout_weight="5"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
-                    android:background="@color/colorPrimaryDark"
-                    />
+                    android:layout_weight="5"
+                    android:background="#e2e2e2"
+                    android:src="@drawable/msm"/>
             </LinearLayout>
 
             <LinearLayout
@@ -98,20 +102,22 @@
                 <ImageButton
                     android:id="@+id/xTrainCourseBtn"
                     android:layout_width="0dp"
-                    android:layout_weight="5"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
-                    android:background="@color/colorAccent"
-                    />
+                    android:layout_weight="5"
+                    android:background="#e2e2e2"
+                    android:src="@drawable/mtc"/>
+
                 <ImageButton
                     android:id="@+id/xOurServiceBtn"
                     android:layout_width="0dp"
-                    android:layout_weight="5"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
-                    android:background="@color/colorPrimaryDark"
-                    />
+                    android:layout_weight="5"
+                    android:background="#e2e2e2"
+                    android:src="@drawable/mos"/>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="130dp"
@@ -120,21 +126,22 @@
                 <ImageButton
                     android:id="@+id/xContactUsBtn"
                     android:layout_width="0dp"
-                    android:layout_weight="5"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
-                    android:background="@color/colorAccent"
-                    />
+                    android:layout_weight="5"
+                    android:background="#e2e2e2"
+                    android:src="@drawable/mcu"/>
+
                 <ImageButton
                     android:id="@+id/xOurTeamBtn"
                     android:layout_width="0dp"
-                    android:layout_weight="5"
                     android:layout_height="match_parent"
                     android:layout_margin="10dp"
-                    android:background="@color/colorPrimaryDark"
+                    android:layout_weight="5"
+                    android:background="#e2e2e2"
+                    android:src="@drawable/mot"
                     />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
-
 </LinearLayout>

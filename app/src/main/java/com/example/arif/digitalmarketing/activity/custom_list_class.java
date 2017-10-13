@@ -1,4 +1,4 @@
-/**
+package com.example.arif.digitalmarketing.activity; /**
  * Created by Arif on 10/13/2017.
  */
 
@@ -11,7 +11,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import android.widget.Toast;
+import com.example.arif.digitalmarketing.R;
 
 /**
  * Created by Arif on 8/23/2017.
@@ -25,10 +25,18 @@ public class custom_list_class extends BaseAdapter {
     Context Ct;
     public static LayoutInflater inflater = null;
     //constructor
-    custom_list_class(aInterView mainAct, String[] nameofhero, int[] imazofhero)
+    custom_list_class(aTech techActivity, String[] HeaderName, int[] HeaderPic)
     {
-        name = nameofhero;
-        imz = imazofhero;
+        name = HeaderName;
+        imz = HeaderPic;
+        Ct = techActivity;
+        inflater = (LayoutInflater) techActivity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+    }
+
+    custom_list_class(aInterView mainAct, String[] HeaderName, int[] HeaderPic)
+    {
+        name = HeaderName;
+        imz = HeaderPic;
         Ct = mainAct;
         inflater = (LayoutInflater) mainAct.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
@@ -54,16 +62,16 @@ public class custom_list_class extends BaseAdapter {
     }
 
     @Override
-    public View getView(final int i, View view, ViewGroup viewGroup) {
+    public View getView(final int i, View view, ViewGroup viewGroup)
+    {
 
         MyHolder mh = new MyHolder();
 
         View myview;
 
-        myview = (View) inflater.inflate(R.layout.custom_list_view, null);
-        mh.tv = (TextView) myview.findViewById(R.id.textviewid);
-        mh.im = (ImageView) myview.findViewById(R.id.imageviewid);
-
+        myview = (View) inflater.inflate(R.layout.custom_listview_w_imgtxt, null);
+        mh.tv = (TextView) myview.findViewById(R.id.Cus_List_TV);
+        mh.im = (ImageView) myview.findViewById(R.id.Cus_List_IV);
         mh.tv.setText(name[i]);
         mh.im.setImageResource(imz[i]);
         return myview;
