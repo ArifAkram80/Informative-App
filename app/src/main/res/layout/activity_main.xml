@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context="com.example.arif.digitalmarketing.activity.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/xVideoBtn"
+                    android:src="@drawable/video_img"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent"
+                    />
+                <ImageButton
+                    android:id="@+id/xInterViewBtn"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/xQZBtn"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent"
+                    />
+                <ImageButton
+                    android:id="@+id/xTechBtn"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/xQuesAnsBtn"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent"
+                    />
+                <ImageButton
+                    android:id="@+id/xStudyMBtn"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/xTrainCourseBtn"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent"
+                    />
+                <ImageButton
+                    android:id="@+id/xOurServiceBtn"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/xContactUsBtn"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent"
+                    />
+                <ImageButton
+                    android:id="@+id/xOurTeamBtn"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
